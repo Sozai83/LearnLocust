@@ -1,4 +1,4 @@
-from locust import User,taskSet, task,between, events
+from locust import User,TaskSet, task,between, events
 
 
 class UserBehaviour(TaskSet):
